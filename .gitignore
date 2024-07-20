@@ -1,0 +1,14 @@
+virenv/
+
+
+# Ignore config files
+config/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore database files
+/backend/*.sqlite3
+
+#Ignore migrations
+/backend/app/migrations/*.py

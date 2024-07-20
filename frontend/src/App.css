@@ -1,0 +1,88 @@
+body {
+  background-color: #2c3e50; 
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.main-container{
+  display: flex;
+  padding: 20px;
+}
+
+.register-container, .login-container, .add-container {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.total-container{
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  margin: 50px;
+  border-radius: 8px;
+  width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+
+.register-container h2, .login-container h2 {
+  margin-top: 0;
+}
+
+.register-container span, .login-container span{
+  font-size: 12px;
+  color: red;
+}
+
+.register-container form, .login-container form, .add-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container input, .login-container input, .add-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #34495e; 
+  color: #ffffff;
+}
+
+.register-container input::placeholder, .login-container input::placeholder, .add-container input::placeholder {
+  color: #95a5a6; 
+}
+
+.register-container button, .login-container button, .add-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2980b9;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover, .login-container button:hover, .add-container button:hover {
+  background-color: #1a5276; 
+}
+
+.register-container p, .login-container p {
+  margin-top: 10px;
+}
+
+.register-container a, .login-container a {
+  color: #3498db; 
+  text-decoration: none;
+}
+
+.register-container a:hover, .login-container a:hover {
+  text-decoration: underline;
+}
